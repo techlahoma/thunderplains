@@ -198,29 +198,29 @@ header
         color: $green-light
         font-weight: 300
 
-  .speakers-topics
-    @extend .list-simple
-    font-weight: 800
-    color: $purple-dark
-    text-transform: uppercase
-    margin: 25px 0 40px
-    font-size: 25px
-    line-height: 30px
+.speakers-topics
+  @extend .list-simple
+  font-weight: 800
+  color: $purple-dark
+  text-transform: uppercase
+  margin: 25px 0 40px
+  font-size: 25px
+  line-height: 30px
+  @media only screen and (max-width: $break-small)
+    font-size: 10px
+    line-height: 20px
+    margin: 15px 0 20px
+  li
+    margin-bottom: 40px
+    img
+      display: block
+      margin: 0 auto
+    @media only screen and (max-width: $break-medium)
+      font-size: 15px
     @media only screen and (max-width: $break-small)
-      font-size: 10px
-      line-height: 20px
-      margin: 15px 0 20px
-    li
-      margin-bottom: 40px
-      img
-        display: block
-        margin: 0 auto
-      @media only screen and (max-width: $break-medium)
-        font-size: 15px
-      @media only screen and (max-width: $break-small)
-        margin-bottom: 20px
-        &.speakers-topics-api
-          margin-left: 16.6%
+      margin-bottom: 20px
+      &.speakers-topics-api
+        margin-left: 16.6%
 
 #schedule
   .schedule-legend

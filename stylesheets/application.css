@@ -4308,7 +4308,7 @@ section {
       line-height: 30px;
       margin-bottom: 10px; } }
 
-.list-simple, .list-inline, header nav ul, #speakers .speakers-list, #speakers .speakers-topics, #schedule .schedule-list, #passes .passes-list, #sponsors .sponsors-list {
+.list-simple, .list-inline, header nav ul, #speakers .speakers-list, .speakers-topics, #schedule .schedule-list, #passes .passes-list, #sponsors .sponsors-list {
   margin: 0;
   padding: 0;
   list-style: none; }
@@ -4453,7 +4453,8 @@ header {
     font-size: 15px;
     color: #7c8079;
     font-weight: 300; }
-#speakers .speakers-topics {
+
+.speakers-topics {
   font-weight: 800;
   color: #524866;
   text-transform: uppercase;
@@ -4461,22 +4462,22 @@ header {
   font-size: 25px;
   line-height: 30px; }
   @media only screen and (max-width: 768px) {
-    #speakers .speakers-topics {
+    .speakers-topics {
       font-size: 10px;
       line-height: 20px;
       margin: 15px 0 20px; } }
-  #speakers .speakers-topics li {
+  .speakers-topics li {
     margin-bottom: 40px; }
-    #speakers .speakers-topics li img {
+    .speakers-topics li img {
       display: block;
       margin: 0 auto; }
     @media only screen and (max-width: 992px) {
-      #speakers .speakers-topics li {
+      .speakers-topics li {
         font-size: 15px; } }
     @media only screen and (max-width: 768px) {
-      #speakers .speakers-topics li {
+      .speakers-topics li {
         margin-bottom: 20px; }
-        #speakers .speakers-topics li.speakers-topics-api {
+        .speakers-topics li.speakers-topics-api {
           margin-left: 16.6%; } }
 
 #schedule .schedule-legend {
